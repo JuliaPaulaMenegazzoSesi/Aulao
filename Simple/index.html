@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividades Simples</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 </head>
 <body>
     <h1>Atividades Simples</h1>
@@ -19,9 +20,18 @@
         </section>
         <section class="second">
             <h2>Média Escolar (7)</h2>
+            <input type="number" id="nota1" placeholder="Informe a primeira nota">
+            <input type="number" id="nota2" placeholder="Informe a segunda nota">
+            <input type="number" id="nota3" placeholder="Informe a terceira nota">
+            <button class="btn2" onclick="calcularMedia()">Calcular Média</button>
+            <p id="media"></p>
         </section>
         <section class="third">
             <h2>Contador JavaScript</h2>
+            <label for="numeroInput">Informe o número: </label>
+            <input type="number" id="numeroInput" required>
+            <button type="button" onclick="contar()">Contar</button>
+            <p id="result"></p>
         </section>
     </main>
 </body>
