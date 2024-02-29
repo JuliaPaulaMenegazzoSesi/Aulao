@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.light{
+    background-color: khaki;
+    color: goldenrod;
+}
+
+html{
+    background-color: midnightblue;
+    color: aliceblue;
+}
+
+.pfp{
+    border-radius: 100%;
+    
+}
